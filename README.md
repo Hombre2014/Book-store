@@ -67,7 +67,7 @@ This project will lay foundations for my Bookstore website. I will create a Reac
 - Change directory into the project folder: `cd book-store`
 - Run `npm install`
 - Run `npm start`
-- A new browser will open automatically with application loaded
+- A new browser will open automatically with application loaded automatically on port 3000
 
 ## Available Scripts
 
