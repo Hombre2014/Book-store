@@ -6,7 +6,7 @@ function Header() {
     <header className="top">
       <div className="left-header">
         <h1>Bookstore CMS</h1>
-        <nav>
+        <nav className="navigation">
           <Link to="/">BOOKS</Link>
           <Link to="/categories">CATEGORIES</Link>
         </nav>
