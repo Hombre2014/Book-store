@@ -1,0 +1,9 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-header {
+  display: flex;
+  justify-content: flex-start;
+}
