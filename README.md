@@ -39,7 +39,7 @@ This project will lay foundations for my Bookstore website. I will create a Reac
 
 - Major languages: Javascript
 - Frameworks: React.js
-- Technologies used: Redux Babel, Jest, webpack
+- Technologies used: Redux, Babel, Jest, webpack
 - Tested with: - ESLint (JavaScript linting), Stylelint (style linting)
 
 ## Live Demo
