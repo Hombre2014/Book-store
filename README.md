@@ -1,6 +1,73 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Yuriy Chamkoriyski Book-store project
+
+> React & Redux app
+
+![screenshot](./src/bookstore.png)
+
+## Description
+
+This project will lay foundations for my Bookstore website. I will create a React and Redux app. I will structure my files using the "feature folder" approach. I will also set up routing using React Router.
+
+## Requirements:
+
+### Phase 1, initialize project with components
+- [x] Initialize React app.
+- [x] Add React Redux (`npm install react-redux`).
+- [x] Structure your application files using a "feature folder" approach and use the ducks pattern for your Redux files. Your files/folder structure could look like this:<br />
+...<br />
+/src<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---/components<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---/redux<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- /books<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| books.js<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- /categories<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| categories.js<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| configureStore.js<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| index.js<br />
+- [x] The building blocks of your app should be set as re-usable components.
+- [x] Add [React Router](https://v5.reactrouter.com/web/guides/quick-start) and set two `<Route>`s and `<Link>`s for the app's navigation:
+  - [x] Books - the default view
+    - [x] Should display the list of books (empty at this point but it should be ready for the data) with the Remove button (no functionality yet).
+    - [x] Should have a form for adding a book (no functionality yet).
+  - [x] Categories
+    - [x] Should display "Under construction" text only.
+- [x] Styling is not required at this point.
+
+## Built With
+
+- Major languages: Javascript
+- Frameworks: React.js
+- Technologies used: Redux Babel, Jest, webpack
+- Tested with: - ESLint (JavaScript linting), Stylelint (style linting)
+
+## Live Demo
+
+- No deployment yet.
+
+### Prerequisites
+
+- Internet connection and browser
+- A text editor(preferably Visual Studio Code)
+- Browser
+
+### Setup
+
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Install
+
+- [Git](https://git-scm.com/downloads)
+- [Node](https://nodejs.org/en/download/)
+
+### Usage
+
+- Clone the repository using `git clone https://github.com/Hombre2014/Book-store`
+- Change directory into the project folder: `cd book-store`
+- Run `npm install`
+- Run `npm start`
+- A new browser will open automatically with application loaded
 
 ## Available Scripts
 
@@ -39,32 +106,27 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Yuriy Chamkoriyski**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@Hombre2014](https://github.com/Hombre2014)
+- Twitter: [@Chamkoriyski](https://twitter.com/Chamkoriyski)
+- LinkedIn: [axebit](https://linkedin.com/in/axebit)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](https://github.com/Hombre2014/math-magicians/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./license.md) licensed.
