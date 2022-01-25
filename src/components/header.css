@@ -1,0 +1,23 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #fff;
+  padding: 0 2rem;
+}
+
+.left-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.left-header > h1 {
+  margin-right: 2rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
