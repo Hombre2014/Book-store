@@ -1,16 +1,14 @@
+import { useSelector } from 'react-redux';
 import SingleBook from './SingleBook';
 
-function BooksList() {
-  const initialState = {
-    id: '1',
-    title: 'Learning Redux',
-    author: 'Daniel Bugl',
-  };
+const BooksList = () => {
+  const books = useSelector((state) => state.books);
+  console.log(books);
   return (
     <ul>
-      <SingleBook id={initialState.id} title={initialState.title} author={initialState.author} />
+      {books.map((book) => <SingleBook key={book.id} book={book.title} />)}
     </ul>
   );
-}
+};
 
 export default BooksList;

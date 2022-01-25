@@ -35,6 +35,16 @@ This project will lay foundations for my Bookstore website. I will create a Reac
     - [x] Should display "Under construction" text only.
 - [x] Styling is not required at this point.
 
+### Phase 2, create and remove books
+- [x] Configuring the Redux Store
+- [x] Write book's actions and reducer
+- [x] In the React component responsible for adding new books set the data inputs in the local React state (set title and author - NOTE: categories and comments are NOT part of this step). Once your new book object is ready to be submitted to Redux store, dispatch a corresponding action.
+- [x] In the React component responsible for removing books - implement that event by dispatching a corresponding action.
+- [x] Use the redux-logger to check if your application is working correctly - Open your browser's console and look for the logger messages. Upon every action dispatch, the logger will print:
+  - [x] prev state - the state of the whole Redux store before the current action was dispatched.
+  - [x] action - the action object that is being dispatched.
+  - [x] next state - the state of the Redux store after the current action was dispatched.
+
 ## Built With
 
 - Major languages: Javascript
