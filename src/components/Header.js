@@ -1,3 +1,4 @@
+import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import './header.css';
 
@@ -8,11 +9,11 @@ function Header() {
         <h1>Bookstore CMS</h1>
         <nav className="navigation">
           <Link to="/">BOOKS</Link>
-          <Link to="/categories">CATEGORIES</Link>
+          <Link className="cat" to="/categories">CATEGORIES</Link>
         </nav>
       </div>
-      <div>
-        <span>logo</span>
+      <div className="user">
+        <FaUser className="fa-user" />
       </div>
     </header>
   );

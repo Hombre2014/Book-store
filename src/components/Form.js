@@ -33,10 +33,11 @@ const Form = () => {
           <select default value={category} id="category" name="category" onChange={handleCategoryChange}>
             <option value="" disabled>Category</option>
             <option value="Action">Action</option>
-            <option value="Fiction">Fiction</option>
+            <option value="Science Fiction">Science Fiction</option>
             <option value="Non-fiction">Non-fiction</option>
             <option value="Biography">Biography</option>
             <option value="History">History</option>
+            <option value="Economy">Economy</option>
           </select>
         </div>
         <button type="submit">ADD BOOK</button>
