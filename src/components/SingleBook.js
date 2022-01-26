@@ -1,25 +1,25 @@
-import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/books';
 import './singleBook.css';
 
-const SingleBook = (props) => {
+const SingleBook = (book) => {
   const {
-    id, title, author,
-  } = props;
+    id, category, title,
+  } = book;
+
+  const dispatch = useDispatch();
+
+  const RemoveBookFromStore = () => {
+    dispatch(removeBook(id));
+  };
 
   return (
-    <li key={id} className="book-container">
+    <li className="book-container">
+      <span>{category}</span>
       <h2>{title}</h2>
-      <h3>{author}</h3>
-      <button type="button">Remove</button>
+      <button onClick={RemoveBookFromStore} type="button">Remove</button>
     </li>
   );
-};
-
-SingleBook.propTypes = {
-  id: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
-  // category: PropTypes.string.isRequired,
 };
 
 export default SingleBook;
