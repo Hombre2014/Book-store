@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { addBook } from '../redux/books/books';
+import { addingBook } from '../redux/books/booksActions';
 import './form.css';
 
 const Form = () => {
@@ -15,13 +15,12 @@ const Form = () => {
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
-
     const newBook = {
-      id: uuidv4(),
+      item_id: uuidv4(),
       title,
       category,
     };
-    dispatch(addBook(newBook));
+    dispatch(addingBook(newBook));
     clearInputTitle();
   };
 
@@ -37,6 +36,7 @@ const Form = () => {
             <option value="Fiction">Fiction</option>
             <option value="Non-fiction">Non-fiction</option>
             <option value="Biography">Biography</option>
+            <option value="History">History</option>
           </select>
         </div>
         <button type="submit">ADD BOOK</button>

@@ -45,6 +45,14 @@ This project will lay foundations for my Bookstore website. I will create a Reac
   - [x] action - the action object that is being dispatched.
   - [x] next state - the state of the Redux store after the current action was dispatched.
 
+### Phase 3, connect to API
+- [x] Read the [Bookstore API documentation](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739) to learn how to use the API.
+- [x] Refactor your add book and remove book features to persist your changes in the server.
+  - [x] You should refactor the redux code of your application using middleware to make async requests to the API.
+  - [x] Don't do the changes using only React state.
+- [x] Add book and remove book should work in the same way after the refactor.
+- [x] No styling is required.
+
 ## Built With
 
 - Major languages: Javascript

@@ -1,16 +1,17 @@
+/* eslint-disable camelcase */
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
+import { removingBook } from '../redux/books/booksActions';
 import './singleBook.css';
 
 const SingleBook = (book) => {
   const {
-    id, category, title,
+    item_id, category, title,
   } = book;
 
   const dispatch = useDispatch();
 
   const RemoveBookFromStore = () => {
-    dispatch(removeBook(id));
+    dispatch(removingBook(item_id));
   };
 
   return (
