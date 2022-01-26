@@ -1,3 +1,5 @@
+import './categories.css';
+
 function Categories() {
   return (
     <>
