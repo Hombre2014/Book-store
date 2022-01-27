@@ -1,8 +1,12 @@
 .inner-container {
-  width: 90%;
-  margin: 2rem auto;
+  margin: 0 6.25rem;
 }
 
 li {
   list-style: none;
+}
+
+.line {
+  margin-top: 2.5rem;
+  color: #d3d3d3;
 }

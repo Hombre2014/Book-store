@@ -53,6 +53,13 @@ This project will lay foundations for my Bookstore website. I will create a Reac
 - [x] Add book and remove book should work in the same way after the refactor.
 - [x] No styling is required.
 
+### Phase 4, styling
+- [x] You will find all the details of the Bookstore design in [Zeplin](https://app.zeplin.io/project/5b35a9e13227086040f8eb75/screen/5b695e29bb8c844f118f9378).
+- [x] Login to Zeplin (hint: you will find the credentials in the [sneak peek](https://github.com/microverseinc/curriculum-react-redux/blob/main/bookstore/sneak_peek.md) of the project)
+- [x] Open the project Bookstore CMS.
+- [x] Use the information detailed in Zeplin to style the website.
+- [x] Your final design should match Zeplin's design.
+
 ## Built With
 
 - Major languages: Javascript
