@@ -6,7 +6,7 @@ function Books() {
   return (
     <div className="inner-container">
       <BooksList />
-      <hr />
+      <hr className="line" />
       <Form />
     </div>
   );

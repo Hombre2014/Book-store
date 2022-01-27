@@ -26,11 +26,11 @@ const Form = () => {
 
   return (
     <div>
-      <h2>ADD NEW BOOK</h2>
+      <h2 className="add-title">ADD NEW BOOK</h2>
       <form onSubmit={handleOnSubmit}>
-        <input value={title} onChange={handleTitleChange} type="text" id="book" required placeholder="Book title" />
-        <div>
-          <select default value={category} id="category" name="category" onChange={handleCategoryChange}>
+        <input className="input-title" value={title} onChange={handleTitleChange} type="text" id="book" required placeholder="Book title" />
+        <div className="category-add">
+          <select className="select" default value={category} id="category" name="category" onChange={handleCategoryChange}>
             <option value="" disabled>Category</option>
             <option value="Action">Action</option>
             <option value="Science Fiction">Science Fiction</option>
@@ -40,7 +40,7 @@ const Form = () => {
             <option value="Economy">Economy</option>
           </select>
         </div>
-        <button type="submit">ADD BOOK</button>
+        <button className="add-btn" type="submit">ADD BOOK</button>
       </form>
     </div>
   );

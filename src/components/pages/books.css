@@ -5,3 +5,8 @@
 li {
   list-style: none;
 }
+
+.line {
+  margin-top: 2.5rem;
+  color: #d3d3d3;
+}
