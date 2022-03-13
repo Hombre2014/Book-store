@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+.book-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.category {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  color: #121212;
+  font-weight: bold;
+  height: 1.125rem;
+  opacity: 50%;
+}
+
+.title {
+  font-size: 1.375rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.author {
+  font-size: 0.875rem;
+  color: #4386bf;
+  height: 1.2rem;
+}
+
+.links {
+  font-size: 0.875rem;
+  color: #4386bf;
+  height: 1.2rem;
+  border: none;
+  background-color: #fff;
+  padding-left: 0;
+  margin-top: 1.4rem;
+  margin-right: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid #d3d3d3;
+}
+
+.remove {
+  cursor: pointer;
+}
+
+.remove:hover {
+  color: #084472;
+  transition: linear 0.6s;
+}
+
+.links:last-of-type {
+  border-right: none;
+}
+
+.meta-data {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  padding-right: 8rem;
+  min-height: 112px;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border-right: 1px solid #d3d3d3;
+  padding-right: 4rem;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.percent {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #121212;
+  height: 2.4rem;
+}
+
+.completed {
+  font-size: 0.875rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #121212;
+  opacity: 50%;
+  height: 1.125rem;
+}
+
+.circle {
+  width: 4.25rem;
+  height: 4.25rem;
+  margin-right: 2rem;
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column;
+  min-height: 112px;
+  margin-left: 4rem;
+}
+
+.current {
+  font-size: 0.8rem;
+  color: #121212;
+  opacity: 50%;
+  height: 1.125rem;
+}
+
+.chapter-number {
+  font-size: 1rem;
+  color: #121212;
+  height: 1.3rem;
+  margin-top: 0.4rem;
+}
+
+.update {
+  width: 11.5rem;
+  background-color: #0290ff;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  text-align: center;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1.825rem;
+}
