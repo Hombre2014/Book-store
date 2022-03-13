@@ -20,7 +20,7 @@ const SingleBook = (book) => {
       <div>
         <span className="category">{category}</span>
         <h2 className="title">{title}</h2>
-        <span className="author">Frank Herbert</span>
+        {/* <span className="author">Frank Herbert</span> */}
         <div>
           <button className="links" type="button" href="#">Comments</button>
           <button className="links remove" onClick={RemoveBookFromStore} type="button">Remove</button>
@@ -31,13 +31,21 @@ const SingleBook = (book) => {
         <div className="progress">
           <img src={progressImage} className="circle" alt="progress bar" />
           <div className="numbers">
-            <span className="percent">75%</span>
+            <span className="percent">
+              {Math.floor(Math.random() * 100)}
+              {' '}
+              %
+            </span>
             <span className="completed">Completed</span>
           </div>
         </div>
         <div className="chapter">
           <span className="current">CURRENT CHAPTER</span>
-          <span className="chapter-number">Chapter 17</span>
+          <span className="chapter-number">
+            Chapter
+            {' '}
+            {Math.floor(Math.random() * 24)}
+          </span>
           <button className="update" type="button">UPDATE PROGRESS</button>
         </div>
       </div>
