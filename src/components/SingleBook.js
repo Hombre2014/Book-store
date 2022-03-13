@@ -20,7 +20,6 @@ const SingleBook = (book) => {
       <div>
         <span className="category">{category}</span>
         <h2 className="title">{title}</h2>
-        {/* <span className="author">Frank Herbert</span> */}
         <div>
           <button className="links" type="button" href="#">Comments</button>
           <button className="links remove" onClick={RemoveBookFromStore} type="button">Remove</button>
