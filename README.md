@@ -69,7 +69,11 @@ This project will lay foundations for my Bookstore website. I will create a Reac
 
 ## Live Demo
 
-- No deployment yet.
+[Live link](https://yuriy-book-store.netlify.app/)
+
+## Deployment
+
+Using [Netlify](https://app.netlify.com/)
 
 ### Prerequisites
 
